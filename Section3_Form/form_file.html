@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action="http://localhost/form.php" method="POST" enctype="multipart/form-data">
+        <!-- 파일 업로드 기능을 할 때에는 무조건적으로 enctype="multipart/form-data" 작성 -->
+        <input type="text" name='id'>
+        <input type="file" name="profile">
+        <!-- type='file': 파일 업로드 태그 -->
+        <input type="submit">
+    </form>
+</body>
+
+</html>

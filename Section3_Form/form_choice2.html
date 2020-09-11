@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action="http://localhost/order.php">
+        <p>
+        <h1>색상 (단일선택)</h1>
+        붉은색: <input type="radio" name='color' value='red'>
+        검은색: <input type="radio" name='color' value='black' checked>
+        파란색: <input type="radio" name='color' value='blue'>
+        <!-- radio: name을 같은 값으로 지정했을때, 하나밖에 선택할 수 없음 -->
+        <!-- checked: 기본적으로 체크되어 있음 -->
+        </p>
+        <p>
+        <h1>사이즈 (다중선택)</h1>
+        95: <input type="checkbox" name='color2' value="95">
+        100: <input type="checkbox" name='color2' value="100" checked>
+        105: <input type="checkbox" name='color2' value="105" checked>
+        <!-- checkbox: name을 같은 값으로 지정했을때, 여러개 선택 가능 -->
+        <!-- checked: 기본적으로 체크되어 있음 -->
+        </p>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

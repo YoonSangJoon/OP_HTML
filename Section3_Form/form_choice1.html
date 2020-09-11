@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action='http://localhost/color.php'>
+        <h1>색상</h1>
+        <select name='color'>
+            <option value='red'>붉은색</option>
+            <option value='black'>검은색</option>
+            <option value='blue'>파란색</option>
+            <!-- option: 선택지 태그 -->
+            <!-- value: 각 선택지에 고유 id 부여 -->
+        </select>
+        <!-- select태그 : option을 포함하는 드랍다운 생성 -->
+        <h1>색상2 (다중선택)</h1>
+        <select name='color2' multiple>
+            <option value='red'>붉은색</option>
+            <option value='black'>검은색</option>
+            <option value='blue'>파란색</option>
+        </select>
+        <!-- ctrl 누른 채로 복수 선택 가능 -->
+        <input type="submit">
+    </form>
+</body>
+
+</html>
